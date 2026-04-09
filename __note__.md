@@ -1,18 +1,5 @@
-rm !(README.txt)
-- Some challenges require downloading files. Rather than clicking the
-  link, you can download the file into the webshell using wget, e.g.
-  wget <file-URL>. Right-click the link to copy the file's URL.
-
-- Some challenges require connecting to a remote port. This is generally
-  done using netcat, e.g. nc <server-name> <port>. However, certain
-  challenges may require the use of programs other than netcat.
-
-- While most challenges are solvable using the webshell, some may be
-  difficult or impossible without additional resources. For example,
-  some challenges are intended to be solved using GUI programs.
-
-- Exporting files from the webshell to the browser or vice versa
-  is possible using sz <filename> / rz.
+- rm !(README.txt)
+- sz <filename> / rz.
 
 ---
 
