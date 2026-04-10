@@ -41,6 +41,12 @@ username=admin&password=password
 - sed -i 's/$/\r/' payload
 
 # encode
+
+### python byte
+```python
+>>> byte_a = bytes([0x61])
+>>> byte_b = b'\x61'
+```
 xxd -b A
 
 To read those "0/1" characters as actual bits, you need to convert them from a string of text into a raw binary value.
