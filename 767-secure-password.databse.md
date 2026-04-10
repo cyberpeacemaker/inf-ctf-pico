@@ -5,7 +5,7 @@
 
 # djb2
 
-# assemble basic | while loop
+# assemble | beginner | while loop
 Good eye—those two jumps are what *create the loop structure*. Let’s break them down clearly.
 
 ---

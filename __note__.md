@@ -10,7 +10,9 @@
 - cat payload | nc verbal-sleep.picoctf.net 60596 | grep "Set-Cookie" | awk -F'[=;]' '{print $2}'
 - cat payload | nc verbal-sleep.picoctf.net 60596 | grep -oP 'secret_recipe=\K[^;]+'
 
+- grep -oP 'picoCTF\{.+?\}' file
 - grep -oP 'text: "\K.*?=='
+- cat file | xargs -n 1 | head -n 10
 - awk '{print $2}'
 - sort -n
 - cat xd | tr -d '[:space:]'
