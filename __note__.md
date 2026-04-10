@@ -1,4 +1,4 @@
-- rm !(README.txt)
+- rm -rf !(README.txt)
 - sz <filename> / rz.
 
 ---
