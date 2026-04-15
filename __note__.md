@@ -75,7 +75,7 @@ perl -lpe '$_ = pack("B*", $_)' bin_A
 # Fei Fei
 https://path.feifei.tw/#path-5
 
-2.1 🌐 Web Security（網頁安全）
+# 2.1 🌐 Web Security（網頁安全）
 這是最適合新手入門的領域，門檻較低且題目豐富。
 
 核心知識點：
@@ -99,7 +99,8 @@ dirsearch / gobuster（目錄掃描）
 PortSwigger Web Security Academy（強烈推薦）
 OWASP Top 10
 Hack The Box - Web Challenges
-2.2 🔓 Cryptography（密碼學）
+
+# 2.2 🔓 Cryptography（密碼學）
 學習各種加密演算法的原理與破解方式。
 
 核心知識點：
@@ -120,7 +121,8 @@ SageMath（數學運算）
 
 CryptoHack（互動式學習平台，強推）
 Crypto101（免費電子書）
-2.3 🔧 Reverse Engineering（逆向工程）
+
+# 2.3 🔧 Reverse Engineering（逆向工程）
 分析程式的運作邏輯，找出隱藏的 flag。
 
 核心知識點：
@@ -143,7 +145,8 @@ strings、objdump、readelf
 Nightmare（逆向工程完整教程）
 Reverse Engineering for Beginners（免費電子書）
 crackmes.one（練習平台）
-2.4 💥 Pwn / Binary Exploitation（二進位漏洞利用）
+
+# 2.4 💥 Pwn / Binary Exploitation（二進位漏洞利用）
 這是難度最高但也最有趣的領域，需要較多先備知識。
 
 核心知識點：
@@ -169,7 +172,8 @@ how2heap（Heap 利用教學）
 建議學習順序：
 
 Stack Overflow → Return to libc → ROP → Format String → Heap
-2.5 🔍 Forensics（數位鑑識）
+
+# 2.5 🔍 Forensics（數位鑑識）
 分析各種數位證據，從中找出隱藏資訊。
 
 核心知識點：

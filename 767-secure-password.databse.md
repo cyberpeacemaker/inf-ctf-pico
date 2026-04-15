@@ -1,4 +1,18 @@
 
+# Reverse Engine | Beginner | Magic
+FindCrypt: A plugin that scans the binary for these "magic" constants used in common encryption and hashing algorithms.
+
+Signatures: Most IDEs have a "Signature" or "Signsrch" tool that identifies known library functions so you don't waste time reverse-engineering standard MD5 or SHA implementations.
+
+PEID (with KANAL plugin): KANAL stands for "Krypto ANALyzer." It’s old but legendary for finding these strings instantly.
+
+Signsrch: A command-line tool and plugin for x64dbg that matches a massive database of signatures against your target file.
+
+Ghidra "Search -> Program Text": You can manually search for the hex constants listed above.
+
+YARA Rules: Many researchers use YARA rules (like the crypto_signatures.yar set) to automatically flag which encryption a file is using.
+
+
 # charcode, hex
 
 # bleed
