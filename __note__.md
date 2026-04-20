@@ -10,6 +10,8 @@
 - cat payload | nc verbal-sleep.picoctf.net 60596 | grep "Set-Cookie" | awk -F'[=;]' '{print $2}'
 - cat payload | nc verbal-sleep.picoctf.net 60596 | grep -oP 'secret_recipe=\K[^;]+'
 
+Whitespace handling: If your code has a tab instead of a space, awk handles it automatically; cut will fail.
+
 - grep -oP 'picoCTF\{.+?\}' file
 - grep -oP 'text: "\K.*?=='
 - cat file | xargs -n 1 | head -n 10
