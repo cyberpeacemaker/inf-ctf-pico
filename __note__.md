@@ -9,6 +9,7 @@
 # Text
 ## Search
 - grep <ignore, only, Perl(\K), Context> 
+- \s+: Matches the colon and all whitespace following it.
 ## Extrach
 - awk '{print $NF}', awk -F':' '{print $2}' (deal both space and tab)
 - cut -c 100-150 file.txt, cut -d' ' -f2 (default tab)
