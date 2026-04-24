@@ -14,11 +14,16 @@
 - awk '{print $NF}', awk -F':' '{print $2}' (deal both space and tab)
 - cut -c 100-150 file.txt, cut -d' ' -f2 (default tab)
 ## Modification
+- xargs: trim leadning trailing space
 - tr (Translate) -d ' ', 'a-z' 'A-Z'
 - sed (Stream Editor) 's/OLD/NEW/g', 
 - sort
 - uniq
 - rev
+
+# ASCII <-> Raw Binary
+- `python3 -c "import sys; b = sys.stdin.read().strip(); print(int(b, 2).to_bytes((len(b) + 7) // 8, 'big').decode('latin-1'), end='')" < digits.bin > decoded_output`
+- `perl -lpe '$_=pack"B*",$_' digits.bin > decoded_output`
 
 # Interactive Shell
 - Ctrl+z, fg
